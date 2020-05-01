@@ -6,13 +6,17 @@ some random notes including how to use MarkDig in C#
 [MD cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
         
 
-````using Markdig;
-````using Markdig.Extensions;
+```javascript
+// C# sample
+using Markdig;
+using Markdig.Extensions;
 
-````                var s = textBox1.Text;
-````                var html = Markdown.ToHtml(s);
-````                string path = @"c:\radu\temp\t.html";
-````                File.WriteAllText(path, html);
-````                webBrowser1.Navigate(path);
+                var s = textBox1.Text;
+                var html = Markdown.ToHtml(s);
+                string path = @"c:\radu\temp\t.html";
+                File.WriteAllText(path, html);
+                webBrowser1.Navigate(path);
+```
+
 
 
